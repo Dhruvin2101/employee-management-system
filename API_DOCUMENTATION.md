@@ -106,7 +106,7 @@ Example:
 ## Create department
 
 ```http
-POST /api/v1/departments
+POST /api/v1/department
 ```
 
 Creates a new department.
@@ -122,7 +122,7 @@ Returns all departments.
 ## Get department by ID
 
 ```http
-GET /api/v1/departments/{id}
+GET /api/v1/department/{id}
 ```
 
 Returns a specific department.
@@ -130,7 +130,7 @@ Returns a specific department.
 ## Update department
 
 ```http
-PATCH /api/v1/departments/{id}
+PATCH /api/v1/department/{id}
 ```
 
 Updates department information.
@@ -138,7 +138,7 @@ Updates department information.
 ## Delete department
 
 ```http
-DELETE /api/v1/departments/{id}
+DELETE /api/v1/department/{id}
 ```
 
 Deletes a department.
